@@ -185,5 +185,48 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "hero_columns",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      },
+      {
+        "component": "select",
+        "name": "type",
+        "value": "highlight",
+        "label": "Color",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Magenta",
+            "value": "Magenta"
+          },
+          {
+            "name": "Blue",
+            "value": "Blue"
+          }
+        ]
+      }
+    ]
   }
 ]
