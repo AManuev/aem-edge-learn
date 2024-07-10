@@ -14,7 +14,7 @@
   flex: none;
 }
 
-.hero-columns-wrapper > div > img {
+.hero-columns-wrapper > div > div > div > picture > img {
   display: block;
   max-width: max-content !important;
 }
