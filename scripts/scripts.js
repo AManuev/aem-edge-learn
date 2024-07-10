@@ -9,8 +9,7 @@ import {
   decorateTemplateAndTheme,
   waitForLCP,
   loadBlocks,
-  loadCSS,
-  fetchPlaceholders,
+  loadCSS
 } from './aem.js';
 
 const LCP_BLOCKS = []; // add your LCP blocks to the list
