@@ -187,7 +187,7 @@
     ]
   },
   {
-    "id": "hero_columns",
+    "id": "heroColumns",
     "fields": [
       {
         "component": "reference",
