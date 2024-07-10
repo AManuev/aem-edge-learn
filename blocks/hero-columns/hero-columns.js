@@ -6,6 +6,7 @@ import { getMetadata } from '../../scripts/aem.js';
  */
 export default async function decorate(block) {
 
-  const heroColumnsMeta = getMetadata('hero_columns');
-  let blockInt = block;
+  let first = block.querySelector('a');
+  firstLink.style.color = 'blue';
+  firstLink.style.backgroundColor = 'white';
 }

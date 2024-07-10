@@ -19,11 +19,6 @@
   max-width: max-content !important;
 }
 
-.hero-columns-wrapper > div > div > div > div > p:nth-child(2) > a:first {
-    background-color: white;
-    color: blue;
-}
-
 .hero-columns-wrapper > div > div > div > div > p > a:any-link {
     align-items: center;
     background-color: rgb(161, 0, 194);
