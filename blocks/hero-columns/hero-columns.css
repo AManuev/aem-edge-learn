@@ -4,10 +4,6 @@
   background-color: rgb(161, 0, 194);
 }
 
-.hero-columns-wrapper > img {
-  width: 100%;
-}
-
 .hero-columns-wrapper > div > div {
   order: 1;
   color: white;
@@ -22,7 +18,7 @@
   display: block;
 }
 
-.hero-columns-wrapper > div > div > p > a:any-link {
+.hero-columns-wrapper > div > div > div > div > p > a:any-link {
     align-items: center;
     background-color: rgb(161, 0, 194);
     border-color: white;
@@ -39,7 +35,7 @@
     font-size: large;
 }
 
-.hero-columns-wrapper > div > div > p > a:first {
+.hero-columns-wrapper > div > div > div > div > p > a:first {
     background-color: white;
     color: blue;
 }
@@ -61,8 +57,4 @@
         align-items: center;
     }
 
-    .hero-columns-wrapper > div > div {
-        order: unset;
-        margin: 1% 3%;
-    }
 }
