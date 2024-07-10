@@ -1,34 +1,66 @@
-main .hero_columns-container > div {
-  max-width: unset;
-}
-  
-main .hero_columns-container {
-  padding: 0;
+.hero-columns-wrapper > div {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(161, 0, 194);
 }
 
-.hero_columns {
-  position: relative;
-  padding: 32px;
-  min-height: 300px;
-}
-
-.hero_columns h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: black;
-}
-
-.hero_columns picture {
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
-}
-
-.hero_columns img {
-  object-fit: cover;
+.hero-columns-wrapper > img {
   width: 100%;
-  height: 100%;
+}
+
+.hero-columns-wrapper > div > div {
+  order: 1;
+  color: white;
+}
+
+.hero-columns-wrapper > div:first {
+  order: 0;
+  flex: none;
+}
+
+.hero-columns-wrapper > div > img {
+  display: block;
+}
+
+.hero-columns-wrapper > div > div > p > a:any-link {
+    align-items: center;
+    background-color: rgb(161, 0, 194);
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    text-decoration: none;
+    transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+    margin: 0.5em;
+    padding: 0.5em;
+    font-size: large;
+}
+
+.hero-columns-wrapper > div > div > p > a:first {
+    background-color: white;
+    color: blue;
+}
+
+@media (width >= 900px) {
+
+    .hero-columns-wrapper {
+        max-width: 100% !important;
+        background-color: rgb(161, 0, 194);
+    }
+
+    .hero-columns-wrapper > div {
+        max-width: 1200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-columns-wrapper > div > div {
+        order: unset;
+        margin: 1% 3%;
+    }
 }
