@@ -6,7 +6,7 @@ import { getMetadata } from '../../scripts/aem.js';
  */
 export default async function decorate(block) {
 
-  let first = block.querySelector('a');
+  let firstLink = block.querySelector('a');
   firstLink.style.color = 'blue';
   firstLink.style.backgroundColor = 'white';
 }
