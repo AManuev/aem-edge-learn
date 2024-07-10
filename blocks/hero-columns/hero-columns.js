@@ -7,5 +7,5 @@ import { getMetadata } from '../../scripts/aem.js';
 export default async function decorate(block) {
 
   const heroColumnsMeta = getMetadata('hero_columns');
-  console.log(heroColumnsMeta);
+  let blockInt = block;
 }
