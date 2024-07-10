@@ -49,12 +49,14 @@
     .hero-columns-wrapper {
         max-width: 100% !important;
         background-color: rgb(161, 0, 194);
+        display: flex;
+        justify-content: center;
     }
 
     .hero-columns-wrapper > div {
         max-width: 1200px;
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
         justify-content: center;
         align-items: center;
     }
