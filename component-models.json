@@ -213,7 +213,7 @@
       {
         "component": "select",
         "name": "type",
-        "value": "highlight",
+        "value": "Magenta",
         "label": "Color",
         "valueType": "string",
         "options": [
