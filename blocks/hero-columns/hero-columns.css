@@ -16,6 +16,7 @@
 
 .hero-columns-wrapper > div > img {
   display: block;
+  max-width: max-content !important;
 }
 
 .hero-columns-wrapper > div > div > div > div > p > a:any-link {
