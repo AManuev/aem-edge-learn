@@ -3,8 +3,12 @@ export default function decorate(block) {
   firstLink.style.color = 'blue';
   firstLink.style.backgroundColor = 'white';
 
-  const bkColor = block.children[0].firstElementChild.firstElementChild.firstElementChild.alt.trim();
-  if (bkColor) {
-    block.parentElement.style.backgroundColor = bkColor;
+ if (block.children[2]) {
+      const bkColor = block.children[2].firstElementChild.firstElementChild.innerText.trim()
+
+      if (bkColor) {
+        block.parentElement.classList.add(bkColor);
+      }
+      block.children[2].remove();
   }
 }
