@@ -183,6 +183,23 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "Background-color",
+        "label": "Background color",
+        "value": "",
+        "options": [
+          {
+            "name": "Magenta",
+            "value": "Magenta"
+          },
+          {
+            "name": "Blue",
+            "value": "Blue"
+          }
+        ]
       }
     ]
   },
@@ -209,6 +226,23 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      },
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "Background-color",
+        "label": "Background color",
+        "value": "",
+        "options": [
+          {
+            "name": "Magenta",
+            "value": "Magenta"
+          },
+          {
+            "name": "Blue",
+            "value": "Blue"
+          }
+        ]
       }
     ]
   },
