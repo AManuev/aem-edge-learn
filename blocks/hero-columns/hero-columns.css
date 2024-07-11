@@ -1,17 +1,12 @@
 .hero-columns-wrapper > div {
   display: flex;
   flex-direction: column;
-  background-color: rgb(161, 0, 194);
+  background-color: #A100C2;
 }
 
 .hero-columns-wrapper > div > div {
   order: 1;
   color: white;
-}
-
-.hero-columns-wrapper > div:first {
-  order: 0;
-  flex: none;
 }
 
 .hero-columns-wrapper > div > div > div > picture > img {
@@ -21,7 +16,7 @@
 
 .hero-columns-wrapper > div > div > div > div > p > a:any-link {
     align-items: center;
-    background-color: rgb(161, 0, 194);
+    background-color: #A100C2;
     border-color: white;
     border-radius: 10px;
     border-style: solid;
@@ -40,17 +35,15 @@
 
     .hero-columns-wrapper {
         max-width: 100% !important;
-        background-color: rgb(161, 0, 194);
+        background-color: #A100C2;
         display: flex;
         justify-content: center;
     }
-
-    .hero-columns-wrapper > div {
+   .hero-columns-wrapper > div {
         max-width: 1200px;
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
         align-items: center;
     }
-
 }
