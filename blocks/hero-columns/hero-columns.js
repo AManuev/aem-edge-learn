@@ -1,4 +1,5 @@
-export default async function decorate(block) {
+
+export default function decorate(block) {
 
   const firstLink = block.querySelector('a');
   firstLink.style.color = 'blue';
