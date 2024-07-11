@@ -221,7 +221,7 @@
         "component": "text",
         "valueType": "string",
         "name": "imageAlt",
-        "label": "Background Color",
+        "label": "Alt",
         "value": ""
       },
       {
