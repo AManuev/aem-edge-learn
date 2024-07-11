@@ -7,6 +7,7 @@ export default function decorate(block) {
       const bkColor = block.children[2].firstElementChild.firstElementChild.innerText.trim()
 
       if (bkColor) {
+        block.classList.add(bkColor.toLowerCase());
         block.parentElement.classList.add(bkColor.toLowerCase());
       }
       block.children[2].remove();
