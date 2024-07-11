@@ -200,7 +200,7 @@
         "component": "text",
         "valueType": "string",
         "name": "imageAlt",
-        "label": "Alt",
+        "label": "Background Color",
         "value": ""
       },
       {
@@ -229,6 +229,36 @@
           {
             "name": "Blue",
             "value": "bg-blue"
+          }
+        ]
+      },
+      {
+        "id": "block-quote",
+        "fields": [
+          {
+            "component": "select",
+            "valueType": "string",
+            "name": "block-quote-source",
+            "label": "Block Quote source",
+            "value": "",
+            "options": [
+              {
+                "name": "Adobe",
+                "value": "adobe"
+              },
+              {
+                "name": "External",
+                "value": "external"
+              }
+            ]
+          },
+          {
+            "component": "richtext",
+            "valueType": "string",
+            "name": "block-quote",
+            "value": "",
+            "label": "Block quote Text",
+            "description": "Sets the text"
           }
         ]
       },
