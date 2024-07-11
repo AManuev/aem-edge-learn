@@ -38,6 +38,7 @@
     display: flex;
     justify-content: center;
   }
+
   .hero-columns-wrapper > div {
     max-width: 1200px;
     display: flex;
