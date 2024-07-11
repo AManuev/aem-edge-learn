@@ -1,12 +1,6 @@
-import { getMetadata } from '../../scripts/aem.js';
-
-/**
- * loads and decorates the hero
- * @param {Element} block The hero column
- */
 export default async function decorate(block) {
 
-  let firstLink = block.querySelector('a');
+  const firstLink = block.querySelector('a');
   firstLink.style.color = 'blue';
   firstLink.style.backgroundColor = 'white';
 }
