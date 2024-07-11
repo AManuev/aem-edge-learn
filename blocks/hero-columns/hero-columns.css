@@ -9,6 +9,18 @@
   color: white;
 }
 
+.magenta {
+    background-color: #a100c2 !important;
+}
+
+.black {
+    background-color: black !important;
+}
+
+.white {
+    background-color: white !important;
+}
+
 .hero-columns-wrapper > div > div > div > picture > img {
   display: block;
   max-width: max-content !important;

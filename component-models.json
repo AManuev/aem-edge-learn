@@ -193,11 +193,15 @@
         "options": [
           {
             "name": "Magenta",
-            "value": "Magenta"
+            "value": "magenta"
           },
           {
-            "name": "Blue",
-            "value": "Blue"
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
           }
         ]
       }
@@ -236,11 +240,15 @@
         "options": [
           {
             "name": "Magenta",
-            "value": "Magenta"
+            "value": "magenta"
           },
           {
-            "name": "Blue",
-            "value": "Blue"
+            "name": "Black",
+            "value": "black"
+          },
+          {
+            "name": "White",
+            "value": "white"
           }
         ]
       }
