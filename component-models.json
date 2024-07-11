@@ -209,88 +209,66 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
-      },
+      }
+    ]
+  },
+  {
+    "id": "block-quote",
+    "fields": [
       {
         "component": "select",
-        "name": "classes",
-        "value": "",
-        "label": "Background Color",
-        "description": "The marquee background color",
         "valueType": "string",
+        "name": "block-quote-source",
+        "label": "Block Quote source",
+        "value": "",
         "options": [
           {
-            "name": "Red",
-            "value": "bg-red"
+            "name": "Adobe",
+            "value": "adobe"
           },
           {
-            "name": "Green",
-            "value": "bg-green"
-          },
-          {
-            "name": "Blue",
-            "value": "bg-blue"
+            "name": "External",
+            "value": "external"
           }
         ]
       },
       {
-        "id": "block-quote",
-        "fields": [
+        "component": "richtext",
+        "valueType": "string",
+        "name": "block-quote",
+        "value": "",
+        "label": "Block quote Text",
+        "description": "Sets the text"
+      }
+    ]
+  },
+  {
+    "id": "quote",
+    "fields": [
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "Quote-source",
+        "label": "Quote source",
+        "value": "",
+        "options": [
           {
-            "component": "select",
-            "valueType": "string",
-            "name": "block-quote-source",
-            "label": "Block Quote source",
-            "value": "",
-            "options": [
-              {
-                "name": "Adobe",
-                "value": "adobe"
-              },
-              {
-                "name": "External",
-                "value": "external"
-              }
-            ]
+            "name": "Adobe",
+            "value": "adobe"
           },
           {
-            "component": "richtext",
-            "valueType": "string",
-            "name": "block-quote",
-            "value": "",
-            "label": "Block quote Text",
-            "description": "Sets the text"
+            "name": "External",
+            "value": "external"
           }
         ]
       },
       {
-        "id": "quote",
-        "fields": [
-          {
-            "component": "select",
-            "valueType": "string",
-            "name": "Quote-source",
-            "label": "Quote source",
-            "value": "",
-            "options": [
-              {
-                "name": "Adobe",
-                "value": "adobe"
-              },
-              {
-                "name": "External",
-                "value": "external"
-              }
-            ]
-          },
-          {
-            "component": "richtext",
-            "valueType": "string",
-            "name": "quote",
-            "value": "",
-            "label": "Quote Text",
-            "description": "Sets the text"
-          }
-        ]
+        "component": "richtext",
+        "valueType": "string",
+        "name": "quote",
+        "value": "",
+        "label": "Quote Text",
+        "description": "Sets the text"
       }
     ]
   }
