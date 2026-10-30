@@ -2,7 +2,6 @@
   background: var(--non-spectrum-bg);
   border-radius: 6px;
   position: relative; 
-  padding-left: 20px; 
   padding: 20px;
   border-style: solid;
   border: 6px solid var(--spectrum-indigo-1400);
@@ -15,8 +14,6 @@
   font-style: italic;
   font-weight: normal;
   font-size: 22px;
-  line-height: 32px;
-  font-family: 'Adobe Clean', sans-serif; 
   color: var(--non-spectrum-grey-updated);
 }
 
