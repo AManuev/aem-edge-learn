@@ -6,5 +6,7 @@
       "environments": [ "dev", "preview", "live" ],
       "event": "aemedit"
     }
-  ]
+  ],
+  "editUrlLabel": "Your Editor",
+  "editUrlPattern": "https://da.live/canvas#/{{org}}/{{site}}{{pathname}}"
 }
