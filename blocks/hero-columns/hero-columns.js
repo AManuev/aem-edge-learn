@@ -22,5 +22,5 @@ export default function decorate(block) {
       block.parentElement.classList.add(bkColor.toLowerCase());
     }
     block.children[2].remove();
-   }
+  }
 }
