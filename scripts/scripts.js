@@ -132,6 +132,29 @@ async function loadLazy(doc) {
   sampleRUM('lazy');
   sampleRUM.observe(main.querySelectorAll('div[data-block-name]'));
   sampleRUM.observe(main.querySelectorAll('picture > img'));
+
+  const loadQuickEdit(...args) => {
+    // eslint-disable-next-line import/no-cycle
+    const { default: initQuickEdit } = await import('../tools/quick-edit/quick-edit.js');
+
+    const addSidekickListener = (sk) => {
+      sk.addEventListener('custom:quick-edit', loadQuickEdit);
+    }
+
+    const sk = document.querySelector('aem-sidekick');
+    if (sk) {
+      addSidekickListeners(sk);
+    } else {
+      document.addEventListener('sidekick-ready', () => {
+        addSidekickListeners(document.querySelector('aem-sidekick'));
+      }, { once: true);
+    }
+  }
+
+  (() => {
+    const hasQE = new URL(window.location.href).searchParams.has('quick-edit');
+    if (hasQE) import('../tools/quick-edit/quick-edit.js').then((mod) =? mod.default());
+  })();
 }
 
 /**
