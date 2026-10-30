@@ -4,7 +4,7 @@ export default function decorate(block) {
   firstLink.style.backgroundColor = 'white';
 
   if (block.children[2]) {
-    const bkColor = block.children[2].firstElementChild.firstElementChild.innerText.trim()
+    const bkColor = block.children[2].firstElementChild.firstElementChild.innerText.trim();
 
     if (bkColor) {
       if (block.classList.contains('white') || block.classList.contains('magenta') || block.classList.contains('black')) {
